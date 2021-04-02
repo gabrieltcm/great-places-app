@@ -1,32 +1,34 @@
 {
   "expo": {
-    "name": "great-places-app",
+    "name": "Great Places",
+    "description": "A Great Place App!",
     "slug": "great-places-app",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
+    "orientation": "portrait", 
+    "icon": "./assets/places.png",
+    "splash": { 
+      "image": "./assets/splash_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
+    "ios":  {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
